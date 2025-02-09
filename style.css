@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* shared styles */
+body{
+    background-color: rgb(245, 245, 245);
+    margin: 0;
+    padding: 0 160px;
+}
+.btn-primary {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgb(0, 106, 80);
+  border: none;
+}
+.btn-primary:hover{
+    background-color: rgb(7, 144, 110);
+}
+/* header styles */
+.header {
+  margin: 0 auto;
+}
+.navbar a {
+  text-decoration: none;
+}
+.navbar {
+  /* Auto layout */
+  background: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 24px 160px 24px 160px; */
+}
+.navbar-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.signin {
+  color: rgb(0, 106, 80);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  /* position: static; */
+  width: 116px;
+  height: 52px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+}
+/* banner styles */
+.banner {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64;
+  padding: 80px 100px 80px 100px;
+  margin-top: 20px;
+}
+.banner-content {
+  width: 598px;
+  height: 326px;
+}
+.banner-title {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0;
+}
+.banner-description {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 16px 0px;
+}
+.btn1 {
+  margin-top: 8px;
+  width: 270px;
+  height: 56px;
+}
