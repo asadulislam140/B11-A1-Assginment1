@@ -482,3 +482,162 @@
     width: 408px;
     height: 306px;
   }
+
+  
+/* section-5 donation Styles */
+
+.Donation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 85px;
+}
+
+.Donation > button {
+  width: 151px;
+  height: 56px;
+}
+
+.donation-amount-btn {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.donation-amount-btn button {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  width: 240px;
+  height: 128px;
+  margin: 32px 0;
+  cursor: pointer;
+}
+.donation-amount-btn .amt-btn-2nd {
+  background-color: rgb(198, 228, 214);
+}
+.donation-amount-btn button:hover {
+  color: rgb(99, 100, 102);
+  background-color: rgb(198, 228, 214);
+}
+
+.Donation input {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  width: 97%;
+  height: 64px;
+  text-align: center;
+  margin: 32px 19px;
+}
+
+/* section-06 Subscribe styles */
+.Subscribe {
+  padding: 80px 100px;
+  margin: 80px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+.subscribe-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0;
+}
+
+.email {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  padding: 18px 40px 18px 40px;
+  width: 600px;
+}
+.subscribe-center {
+  display: flex;
+  justify-content: center;
+  max-width: 750px;
+}
+.subscribe-btn {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background-color: rgb(0, 106, 80);
+  padding: 17px 34px 17px 34px;
+  cursor: pointer;
+}
+.subscribe-header {
+  max-width: 750px;
+}
+.subscribe-description {
+  margin: 16px 64px 24px 64px;
+  text-align: center;
+}
+.commit {
+  margin: 25px 0 0 0;
+  text-align: center;
+}
+
+/* footer styles */
+.footer {
+  background: rgb(255, 255, 255);
+  padding: 50px 160px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  /* justify-content: center; */
+  justify-content: space-between;
+}
+
+.footer-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.social{
+  display: flex;
+  gap: 23px;
+}
